@@ -88,6 +88,14 @@ logs/
 ehthumbs.db
 Thumbs.db
 
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+# Keep frontend/dist tracked so deployment servers don't require node/npm
+!frontend/dist/
+.vite/
+npm-debug.log*
+
 # Editor and IDE directories
 .idea/
 .vscode/
